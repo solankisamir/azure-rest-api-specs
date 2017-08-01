@@ -1,0 +1,56 @@
+{
+    "parameters": {
+        "serviceName": "apimService1",
+        "resourceGroupName": "rg1",
+        "api-version": "2017-03-01",
+        "subscriptionId": "subid"
+    },
+    "responses": {
+        "200": {
+            "body": {
+                "value": [
+                    {
+                        "id": "/issues/597fdcacd8d14f10b80c0b7a",
+                        "title": "lot of timeouts",
+                        "description": "We received timeout between 2017-07-31 18:17:46.6142727 and 2017-07-31 19:17:46.6142727. Was service down??",
+                        "reportedOn": "2017-08-01T01:43:08.063",
+                        "state": "proposed",
+                        "authorId": "1",
+                        "authorName": "Administrator",
+                        "apiId": "57a03a13e4bbd5119c8b19e9",
+                        "attachments": [
+                            {
+                                "title": "Session.saz",
+                                "contentType": "application/octet-stream",
+                                "uniqueId": "b35b9d71-ce3d-47cb-8a06-f2e911dd24e6"
+                            }
+                        ],
+                        "comments": [
+                            {
+                                "text": "Yes, we have a network outage blib.",
+                                "postedOn": "2017-08-01T01:45:23.58",
+                                "id": "/comments/597fdd33d8d14f10b80c0b7b",
+                                "authorId": "1",
+                                "authorName": "Administrator"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "/issues/5931a796e4bbd512a88c680c",
+                        "title": "a new issue",
+                        "description": "data is missing",
+                        "reportedOn": "2017-06-02T17:59:50.497",
+                        "state": "proposed",
+                        "authorId": "5931a75ae4bbd512a88c680b",
+                        "authorName": "SAMIR",
+                        "apiId": "5600b59475ff190048040001",
+                        "attachments": [],
+                        "comments": []
+                    }
+                ],
+                "count": 2,
+                "nextLink": null
+            }
+        }
+    }
+}
