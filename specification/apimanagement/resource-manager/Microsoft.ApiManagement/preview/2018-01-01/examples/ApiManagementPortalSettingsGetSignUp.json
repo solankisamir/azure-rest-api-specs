@@ -8,6 +8,9 @@
     "responses": {
         "200": {
             "body": {
+                "id": "/portalsettings/signup",
+                "type": "Microsoft.ApiManagement/service/portalsettings",
+                "name": "signup",
                 "properties": {
                     "enabled": true,
                     "termsOfService": {
