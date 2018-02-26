@@ -411,10 +411,33 @@
         "policyContent": {
           "type": "string",
           "description": "Json escaped Xml Encoded contents of the Policy."
+        },
+        "contentFormat": {
+          "type": "string",
+          "description": "Format of the policyContent.",
+          "enum": [
+            "xml",
+            "xml-link"
+          ],
+          "x-ms-enum": {
+            "name": "ContentFormat",
+            "modelAsString": true,
+            "values": [
+              {
+                "value": "xml",
+                "description": "The contents are inline and Content type is an XML document."
+              },
+              {
+                "value": "xml-link",
+                "description": "The XML document is hosted on a publicly accessible internet address."
+              }
+            ]
+          }
         }
       },
       "required": [
-        "policyContent"
+        "policyContent",
+        "contentFormat"
       ],
       "description": "Policy contract Properties."
     },
