@@ -70,7 +70,7 @@
           "200": {
             "description": "Returns a collection of Cache entity.",
             "schema": {
-              "$ref": "./examples/CacheCollection.json#/CacheCollection"
+              "$ref": "./definitions/CacheCollection.json#/CacheCollection"
             }
           },
           "default": {
