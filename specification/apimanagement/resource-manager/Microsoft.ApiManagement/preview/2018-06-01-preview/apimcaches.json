@@ -70,7 +70,7 @@
           "200": {
             "description": "Returns a collection of Cache entity.",
             "schema": {
-              "$ref": "#/definitions/CacheCollection"
+              "$ref": "./examples/CacheCollection.json#/CacheCollection"
             }
           },
           "default": {
@@ -360,22 +360,6 @@
     }
   },
   "definitions": {
-    "CacheCollection": {
-      "properties": {
-        "value": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/CacheContract"
-          },
-          "description": "Page values."
-        },
-        "nextLink": {
-          "type": "string",
-          "description": "Next page link if any."
-        }
-      },
-      "description": "Paged Caches list representation."
-    },
     "CacheContract": {
       "properties": {
         "properties": {

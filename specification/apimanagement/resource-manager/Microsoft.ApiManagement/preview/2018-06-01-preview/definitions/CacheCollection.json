@@ -1,0 +1,18 @@
+{
+  "CacheCollection": {
+    "properties": {
+      "value": {
+        "type": "array",
+        "items": {
+          "$ref": "../apimcaches.json#/definitions/CacheContract"
+        },
+        "description": "Page values."
+      },
+      "nextLink": {
+        "type": "string",
+        "description": "Next page link if any."
+      }
+    },
+    "description": "Paged Caches list representation."
+  }
+}
