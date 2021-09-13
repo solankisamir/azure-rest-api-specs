@@ -565,7 +565,7 @@
       },
       "allOf": [
         {
-          "$ref": "./apimanagement.json#/definitions/Resource"
+          "$ref": "./../../../../../common-types/resource-management/v2/types.json#/definitions/Resource"
         }
       ],
       "description": "Notification details."
@@ -637,7 +637,7 @@
       },
       "allOf": [
         {
-          "$ref": "./apimanagement.json#/definitions/Resource"
+          "$ref": "./../../../../../common-types/resource-management/v2/types.json#/definitions/Resource"
         }
       ],
       "description": "Recipient User details."
@@ -677,7 +677,7 @@
       },
       "allOf": [
         {
-          "$ref": "./apimanagement.json#/definitions/Resource"
+          "$ref": "./../../../../../common-types/resource-management/v2/types.json#/definitions/Resource"
         }
       ],
       "description": "Recipient Email details."
