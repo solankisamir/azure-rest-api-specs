@@ -1136,7 +1136,7 @@
       },
       "allOf": [
         {
-          "$ref": "./apimanagement.json#/definitions/Resource"
+          "$ref": "./../../../../../common-types/resource-management/v2/types.json#/definitions/Resource"
         }
       ],
       "description": "Product details."

@@ -1524,7 +1524,7 @@
       },
       "allOf": [
         {
-          "$ref": "./apimanagement.json#/definitions/Resource"
+          "$ref": "./../../../../../common-types/resource-management/v2/types.json#/definitions/Resource"
         }
       ],
       "description": "Tag Contract details."
@@ -1579,7 +1579,7 @@
       },
       "allOf": [
         {
-          "$ref": "./apimanagement.json#/definitions/Resource"
+          "$ref": "./../../../../../common-types/resource-management/v2/types.json#/definitions/Resource"
         }
       ],
       "description": "Contract details."

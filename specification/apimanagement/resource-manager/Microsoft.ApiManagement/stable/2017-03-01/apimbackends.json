@@ -493,7 +493,7 @@
       },
       "allOf": [
         {
-          "$ref": "./apimanagement.json#/definitions/Resource"
+          "$ref": "./../../../../../common-types/resource-management/v2/types.json#/definitions/Resource"
         }
       ],
       "description": "Backend details."
@@ -740,7 +740,7 @@
       },
       "allOf": [
         {
-          "$ref": "./apimanagement.json#/definitions/Resource"
+          "$ref": "./../../../../../common-types/resource-management/v2/types.json#/definitions/Resource"
         }
       ],
       "description": "Reconnect request parameters."
